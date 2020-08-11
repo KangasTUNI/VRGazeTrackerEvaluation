@@ -31,4 +31,8 @@ Then the gaze data, the gaze directions, were logged using a 60~Hz sampling rate
 
 ### Gaze data analysis
 
-The gaze data analysis is a set of functions 
+The gaze data analysis software is a set of Python functions in a Jupyter Notebook environment.
+The functions read the data from a set of files, does some data cleaning and then create a number of visualizations and compute quantitative results.
+The functions can be easily modified and new functions can be implemented by extending the Notebook.
+
+
