@@ -15,19 +15,19 @@ The gaze data collecting software has been developed in Unity environment and us
 The code is otherwise ready to be used, but the gaze tracker API varies between implementations.
 Therefore, one is adviced to modify that part of the code, the code should be easy to understand and correct.
 
-The software consisted of two phases.
-First there was an initialization phase where the VR device was set up and the gaze tracker was calibrated.
-In practice we made a call to the calibration routine provided by the gaze tracker manufacturer. 
-(We relied on manufacturer components as often as possible.}
-Next there was a measurement phase during which the participant was shown a ball moving from location to location in an otherwise empty VR environment.
-The participant was asked to follow the target ball by his/her gaze.
-The locations were fixed in the display coordinates and not in the VR environment, which meant that they followed possible head turns. 
-I.e., the participant had to turn his/her eyes and not head to see different targets.
+The software consists of two phases.
+First there is an initialization phase where the VR device is set up and the gaze tracker is calibrated.
+In practice we make a call to the calibration routine provided by the gaze tracker manufacturer. 
+(We rely on manufacturer components as often as possible.}
+Next there is a measurement phase during which the viewer is shown a ball moving from location to location in an otherwise empty VR environment.
+The participant is asked to follow the target ball by his/her gaze.
+The locations are fixed in the display coordinates and not in the VR environment, which means that they follow possible head turns. 
+I.e., the participant has to turn his/her eyes and not head to see different targets.
 
-The gaze data was collected into log-files, one file for each collection session.
-The log-files were self-contained, i.e. they had in them all the necessary information to compute the accuracy and precision.
-For each target shown to the viewer in the collection session we first logged the position/direction of the target in the VR environment.
-Then the gaze data, the gaze directions, were logged using a 60~Hz sampling rate.
+The gaze data is collected into log-files, one file for each collection session.
+The log-files are self-contained, i.e. they have in them all the necessary information to compute the accuracy and precision.
+For each target shown to the viewer in the collection session we first log the position/direction of the target in the VR environment.
+Then the gaze data, the gaze directions, are logged using a 60~Hz sampling rate.
 
 ### Gaze data analysis
 
