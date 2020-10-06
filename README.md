@@ -35,4 +35,10 @@ The gaze data analysis software is a set of Python functions in a Jupyter Notebo
 The functions read the data from a set of files, does some data cleaning and then create a number of visualizations and compute quantitative results.
 The functions can be easily modified and new functions can be implemented by extending the Notebook.
 
+### Logfile folder
+
+The logfiles are usually stored in a separate folder.
+The folder name and a list of logfiles are written in the Jupyter Notebook and the reading routines go through the data.
+We have included three example logfiles in the repository.
+
 
