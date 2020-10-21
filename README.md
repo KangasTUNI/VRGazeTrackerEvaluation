@@ -14,6 +14,7 @@ The software is available 'as is' and can be freely used and modified.
 The gaze data collecting software has been developed in Unity environment and uses C# language.
 The code is otherwise ready to be used, but the gaze tracker API varies between implementations.
 Therefore, one is adviced to modify that part of the code, the code should be easy to understand and correct.
+(During the development we were using the Unity version 2018.2.8f1.)
 
 The software consists of two phases.
 First there is an initialization phase where the VR device is set up and the gaze tracker is calibrated.
